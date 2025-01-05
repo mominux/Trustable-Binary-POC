@@ -1,0 +1,13 @@
+[Unit]
+Description=Portable Key-Value-Server
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/key-value-server
+StandardOutput=journal
+
+# Namespace and filesystem settings
+ProtectSystem=no
+ProtectHome=no
+PrivateTmp=no
+ReadWritePaths=/etc /var /tmp /run /proc /sys

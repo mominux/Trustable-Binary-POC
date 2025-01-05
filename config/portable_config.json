@@ -1,0 +1,16 @@
+{
+    "name": "key-value-server",
+    "version": "1.0.0",
+    "description": "A portable key-value server project with a single binary and service file.",
+    "binaries": [
+        {
+            "path": "build/key-value-server"
+        }
+    ],
+    "unit_files": [
+        {
+            "path": "units/key-value-server.service",
+            "type": "service"
+        }
+    ]
+}

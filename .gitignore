@@ -1,0 +1,13 @@
+# Ignore build artifacts
+/build/
+
+# Ignore generated portable files
+/my-portable-service/
+
+/output/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
